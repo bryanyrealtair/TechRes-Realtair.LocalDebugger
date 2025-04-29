@@ -1,0 +1,15 @@
+﻿{
+  "applications": {
+    "Realtair.LocalDebugger.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44352",
+      "path": "../../../src/Realtair.LocalDebugger.Web/Realtair.LocalDebugger.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Realtair.LocalDebugger.Application": {
+      "path": "src/Realtair.LocalDebugger.Application/Realtair.LocalDebugger.Application.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.Application.Tests": {
+      "path": "test/Realtair.LocalDebugger.Application.Tests/Realtair.LocalDebugger.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Realtair.LocalDebugger.Domain.Shared": {
+      "path": "src/Realtair.LocalDebugger.Domain.Shared/Realtair.LocalDebugger.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.Application.Contracts": {
+      "path": "src/Realtair.LocalDebugger.Application.Contracts/Realtair.LocalDebugger.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.HttpApi": {
+      "path": "src/Realtair.LocalDebugger.HttpApi/Realtair.LocalDebugger.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.HttpApi.Client": {
+      "path": "src/Realtair.LocalDebugger.HttpApi.Client/Realtair.LocalDebugger.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.Web": {
+      "path": "src/Realtair.LocalDebugger.Web/Realtair.LocalDebugger.Web.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.Web.Tests": {
+      "path": "test/Realtair.LocalDebugger.Web.Tests/Realtair.LocalDebugger.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Realtair.LocalDebugger.EntityFrameworkCore.Tests": {
+      "path": "test/Realtair.LocalDebugger.EntityFrameworkCore.Tests/Realtair.LocalDebugger.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Realtair.LocalDebugger.EntityFrameworkCore": {
+      "path": "src/Realtair.LocalDebugger.EntityFrameworkCore/Realtair.LocalDebugger.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.TestBase": {
+      "path": "test/Realtair.LocalDebugger.TestBase/Realtair.LocalDebugger.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Realtair.LocalDebugger.Domain.Tests": {
+      "path": "test/Realtair.LocalDebugger.Domain.Tests/Realtair.LocalDebugger.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Realtair.LocalDebugger.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Realtair.LocalDebugger.HttpApi.Client.ConsoleTestApp/Realtair.LocalDebugger.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Realtair.LocalDebugger.DbMigrator": {
+      "path": "src/Realtair.LocalDebugger.DbMigrator/Realtair.LocalDebugger.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Realtair.LocalDebugger.Domain": {
+      "path": "src/Realtair.LocalDebugger.Domain/Realtair.LocalDebugger.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
