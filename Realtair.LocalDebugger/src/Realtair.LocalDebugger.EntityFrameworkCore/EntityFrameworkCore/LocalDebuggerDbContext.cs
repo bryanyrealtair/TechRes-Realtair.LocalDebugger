@@ -15,6 +15,7 @@ using Volo.Abp.OpenIddict.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using Realtair.LocalDebugger.Books;
+using Realtair.LocalDebugger.FormValues;
 
 namespace Realtair.LocalDebugger.EntityFrameworkCore;
 
@@ -28,6 +29,7 @@ public class LocalDebuggerDbContext :
 {
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
     public DbSet<Book> Books { get; set; }
+    public DbSet<FormValue> FormValues { get; set; }
 
     #region Entities from the modules
 
