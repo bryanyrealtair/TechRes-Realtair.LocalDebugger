@@ -12,6 +12,6 @@ public class FormValuesAutoMapperProfile : Profile
     public FormValuesAutoMapperProfile()
     {
         CreateMap<FormValue, FormValueDto>();
-        CreateMap<GetFormValueDto, FormValueDto>();
+        CreateMap<CreateUpdateFormValueDto, FormValueDto>();
     }
 }

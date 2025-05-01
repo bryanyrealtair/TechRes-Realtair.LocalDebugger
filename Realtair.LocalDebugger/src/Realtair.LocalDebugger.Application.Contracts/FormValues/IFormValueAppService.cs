@@ -12,7 +12,8 @@ public interface IFormValueAppService :
     ICrudAppService<
         FormValueDto, 
         int,
-        PagedAndSortedResultRequestDto>
+        PagedAndSortedResultRequestDto,
+        CreateUpdateFormValueDto>
 {
 
 }

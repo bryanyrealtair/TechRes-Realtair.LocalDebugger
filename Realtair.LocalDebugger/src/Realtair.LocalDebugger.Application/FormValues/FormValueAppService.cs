@@ -14,7 +14,8 @@ public class FormValueAppService :
         FormValue,
         FormValueDto,
         int,
-        PagedAndSortedResultRequestDto>,
+        PagedAndSortedResultRequestDto,
+        CreateUpdateFormValueDto>,
     IFormValueAppService
 {
     public FormValueAppService(IRepository<FormValue, int> repository) : base(repository)
